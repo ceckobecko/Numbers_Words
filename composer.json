@@ -1,5 +1,5 @@
 {
-    "name": "pear/numbers_words",
+    "name": "invbg/numbers_words",
     "description": "Allows converting numbers written in arabic digits to words in several languages. You can convert an integer between -infinity and infinity.",
     "type": "library",
     "keywords": [
