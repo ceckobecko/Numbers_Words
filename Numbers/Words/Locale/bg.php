@@ -269,7 +269,7 @@ class Numbers_Words_Locale_bg extends Numbers_Words
      * @author Kouber Saparev <kouber@php.net>
      * @see function _initDigits
      */
-    function Numbers_Words_Locale_bg()
+    function __construct()
     {
         $this->_initDigits();
     }
