@@ -174,9 +174,9 @@ class Numbers_Words_Locale_it_IT extends Numbers_Words
         }
 
         // values for digits, tens and hundreds
-        $h = floor(($num / 100.00) % 10);
-        $t = floor(($num / 10.00) % 10);
-        $d = floor($num % 10.00);
+        $h = floor(((int)($num / 100)) % 10);
+        $t = floor(((int)($num / 10)) % 10);
+        $d = floor(((int)$num) % 10);
 
         // centinaia: duecento, trecento, etc...
         switch ($h) {
